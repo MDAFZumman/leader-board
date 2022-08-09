@@ -1,0 +1,69 @@
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    max-width: 870px;
+}
+/* Header */
+header{
+    margin-bottom: 50px;
+}
+/* Navbar */
+.navbar img{
+    height: 51px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+/* Main */
+main{
+    background-color: white;
+    border-radius: 5px;
+}
+/* Top Player */
+.heading{
+    color: #562EFF;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+/* Top Blog */
+.top-blog img{
+    width: 177px;
+}
+.top-blog a{
+    color: #562EFF;
+    text-decoration: none;
+}
+/* Latest Course */
+.latest-course{
+    background-color: white;
+}
+.card-text{
+    color: #ED6B4F;
+}
+.card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.rating img{
+    width: 12px;
+}
+.rating p{
+    color:#A2A2A2;
+}
+#r-btn{
+    color: #FF4A60;
+    border-radius: 30px;
+    border: none;
+    background-color: #FEE5DF;
+}
+#r-btn img{
+    width: 20px;
+}
+/* Footer */
+footer a{
+    text-decoration: none;
+}

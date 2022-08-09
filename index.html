@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-primary">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="#">
+                  <img id="logo" src="images/icons/logo.png" alt="">
+                </a>
+                <h5 class="text-light">Idea</h5>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#works">Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#profile">
+                      <img id="profile" src="images/icons/profile.png" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="container">
+      <!-- Top Player -->
+      <section class="top-player">
+        <h2 class="py-4 heading">Top Player</h2>
+        <div class="player row">
+          <div class="player-1 col-md-4 col-sm-6 d-flex align-items-center pb-4">
+            <img src="images/players/player-1.png" alt="">
+            <h5 class="mx-3">John Smith</h5>
+          </div>
+          <div class="player-2 col-md-4 col-sm-6 d-flex align-items-center pb-4">
+            <img src="images/players/player-2.png" alt="">
+            <h5 class="mx-3">Pro Rasel</h5>
+          </div>
+          <div class="player-3 col-md-4 col-sm-6 d-flex align-items-center pb-4">
+            <img src="images/players/player-3.png" alt="">
+            <h5 class="mx-3">Abu Sufian</h5>
+          </div>
+          <div class="player-4 col-md-4 col-sm-6 d-flex align-items-center pb-4">
+            <img src="images/players/player-4.png" alt="">
+            <h5 class="mx-3">Shajedul Karim</h5>
+          </div>
+          <div class="player-5 col-md-4 col-sm-6 d-flex align-items-center pb-4">
+            <img src="images/players/player-5.png" alt="">
+            <h5 class="mx-3">Maruf Ahmed</h5>
+          </div>
+          <div class="player-6 col-md-4 col-sm-6 d-flex align-items-center pb-4">
+            <img src="images/players/player-6.png" alt="">
+            <h5 class="mx-3">Mujahid</h5>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <!-- Top Blog -->
+      <section class="top-blog pb-4 mb-5" id="works">
+        <h2 class="py-4 heading">Top Blog</h2>
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="p-3">
+              <img src="images/blogs/blog-1.png" alt="">
+            </div>
+            <div class="p-3">
+              <h5>13 of My Favorite UI/UX Goodies</h5>
+              <p class="text-muted">By <a href="#">Danny Sapia</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="p-3">
+              <img src="images/blogs/blog-2.png" alt="">
+            </div>
+            <div class="p-3">
+              <h5>UI cheat sheet: list vs grids</h5>
+              <p class="text-muted">By <a href="#">Tess Gadd</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="p-3">
+              <img src="images/blogs/blog-3.png" alt="">
+            </div>
+            <div class="p-3">
+              <h5>7 typography tips for interface design</h5>
+              <p class="text-muted">By <a href="#">Jeremiah Lam</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="p-3">
+              <img src="images/blogs/blog-4.png" alt="">
+            </div>
+            <div class="p-3">
+              <h5>Your logo is copied</h5>
+              <p class="text-muted">By <a href="#">Ferdinand Vogler</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Latest Course -->
+    <section class="mb-5">
+      <div class="container latest-course pb-4">
+        <h2 class="py-4 heading">Latest Course</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/courses/course-1.png" class="card-img-top p-3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">React - The Complete Guide 2020</h5>
+                <p class="card-text mb-0">Reed Krakoff.</p>
+                <div class="rating d-flex align-items-center">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star2.jpg" alt="">
+                  <p class="p-4 my-0">4.5</p>
+                  <button id="r-btn">
+                    <img class="pb-1" src="images/icons/clock.png" alt="">
+                    1:30 hr
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/courses/course-2.png" class="card-img-top p-3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Powerpoint 2020 Master Powerpoint Cour</h5>
+                <p class="card-text mb-0">Walter Scott</p>
+                <div class="rating d-flex align-items-center">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star2.jpg" alt="">
+                  <p class="p-4 my-0">4.3</p>
+                  <button id="r-btn">
+                    <img class="pb-1" src="images/icons/clock.png" alt="">
+                    1:20 hr
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/courses/course-3.png" class="card-img-top p-3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Complete JavaScript Course 2020</h5>
+                <p class="card-text mb-0">Reed Krakoff.</p>
+                <div class="rating d-flex align-items-center">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star.png" alt="">
+                  <img src="images/icons/star2.jpg" alt="">
+                  <p class="p-4 my-0">4.5</p>
+                  <button id="r-btn">
+                    <img class="pb-1" src="images/icons/clock.png" alt="">
+                    1:30 hr
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="about">
+      <p class="text-center mb-0"><small>©copyright 2022. All rights reserved by <a target="_blank" href="https://www.facebook.com/md.jumman.581"><i>MD A F Zumman.</i></a></small></p>
+    </footer>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
